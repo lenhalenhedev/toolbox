@@ -3,8 +3,8 @@ import string
 
 def random_string(length: int = 200) -> str:
     """
-    Tạo một chuỗi ngẫu nhiên có độ dài `length` ký tự.
-    Sử dụng `secrets.choice` để đảm bảo độ ngẫu nhiên cao (cryptographically secure).
+     
+    (cryptographically secure).
     """
     
     alphabet = (
