@@ -1,5 +1,3 @@
-Heyyy if you watch this now, wait me up load file 
-
 SearXNG VN – Optimized Minimal Fork
 
 A lightweight, opinionated SearXNG fork optimized for Vietnam IPs (CGNAT) with a focus on speed, stability, and low CAPTCHA rate, not extreme privacy hardening.
@@ -73,8 +71,14 @@ Git
 
 Quick Start
 
-git clone https://github.com/lenhalenhedev/my-tool
-cd searxng-vn
+download in: https://github.com/lenhalenhedev/my-tool/releases/tag/searxng
+
+and 
+
+tar -xzf searxng.tar.gz
+cd searxng
+
+note: sorry😶 this files too big, I cannot upload to this folder. 
 
 (Recommended) Virtual environment
 
@@ -121,9 +125,15 @@ All changes are published in compliance with AGPL-3.0.
 No attempt is made to hide source code or restrict redistribution.
 
 ----------------
-If you are not on Android, do not commit the virtual environment:
+If you are not on Android (termux), do not commit the virtual environment:
 rm -r venv
 
+----------------
+Anyway, the path to the config file is /searxng/searx/
+if android (termux)
+/data/data/com.termux/files/home/searxng/searx/
+***Don't expect it to be like Google, Bing, or DuckDuck Go.***
+I just customized it a bit for easier use, and of course it won't be perfect :v. If you see comments in settings.local.yml, it's because of GPT chat (only the engines).
 ----------------
 License
 
